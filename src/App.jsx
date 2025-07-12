@@ -11,8 +11,8 @@ const fetchCountries= fetch("https://restcountries.com/v3.1/all?fields=name,capi
 
   return (
     <>
-    <h1>All countries</h1>
-    <ErrorBoundary fallback={<p>errroe</p>}> <Suspense fallback={<p>loading......</p>}>
+    
+    <ErrorBoundary fallback={<p>errro</p>}> <Suspense fallback={<p>loading......</p>}>
 
     <Countries data={fetchCountries}></Countries>
 

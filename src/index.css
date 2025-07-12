@@ -27,3 +27,6 @@ body {
  .card button{padding: 2px 8px; background: #000;margin-top: 10px;}
 .parentofcard{display: grid;grid-template-columns: repeat(3,1fr);gap: 3px;}
 .car{background: #ce7474;}
+.myul{display:grid;grid-template-columns: repeat(6,1fr);gap: 10px;}
+.myul li {background: #ce7474;padding: 2px 7px ;border-radius: 8px;}
+.myul li img{width: 20px;}
